@@ -1,88 +1,51 @@
+# Proyecto Individual #3 Facundo Martín Corengia | Bootcamp SoyHenry
 
-![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
+---
 
-# **PROYECTO INDIVIDUAL Nº3**
+## Índice
 
-# <h1 align="center">**`Telecomunicaciones`**</h1>
+1. Introducción
+2. Trabajo a realizar
+3. Procedimiento
+4. Conclusión
 
-¡Bienvenidos al último proyecto individual de la etapa de labs! En esta ocasión, deberán hacer un trabajo situándose en el rol de un ***Data Analyst***.
+---
 
-<img src = 'https://i.pinimg.com/originals/06/01/4c/06014cb5dbc08b16d3f105d97bc5c85e.png' height = 200>
+## Introducción
 
-## **Descripción del problema (Contexto y rol a desarrollar)**
+Hola, me llamo Facundo Martín Corengia. La finalidad de este repositorio es explicar mi Proyecto Individual del Bootcamp SoyHenry enfocado en la rama de Data Analyst.
 
-### **Contexto**
-La industria de las telecomunicaciones ha jugado un papel vital en nuestra sociedad, facilitando la información a escala internacional y permitiendo la comunicación continua incluso en medio de una pandemia mundial. La transferencia de datos y comunicación se realiza en su mayoría a través de internet, líneas telefónicas fijas, telefonía móvil, casi en cualquier lugar del mundo. 
+---
 
-En comparación con la media mundial, Argentina está a la vanguardia del desarrollo de las telecomunicaciones, teniendo para el 2020 un total de [62,12 millones conexiones](https://www.datosmundial.com/america/argentina/telecomunicacion.php). 
+## Trabajo a realizar
 
-### Rol a desarrollar
+En este proyecto, voy a realizar un análisis completo del comportamiento del sector de telecomunicaciones a nivel nacional. Mi principal objetivo era monitorear la eficacia de los objetivos de la empresa en cuestión a nivel nacional. Para cumplir con esta tarea, realicé un análisis exploratorio de los datos (EDA) con la herramienta PowerBI Desktop. El mismo, luego de ser realizado, debía contar con unas conclusiones y posteriormente a eso, se debía realizar un informe. En el informe se debe explicar y justificar el análisis realizado, y se debe complementar con salidas visuales. El mismo ya está realizado y se puede encontrar en este mismo repositorio.
 
-En este contexto, una empresa prestadora de servicios de telecomunicaciones le encarga a usted la realización de un **análisis** completo que permita reconocer el comportamiento de este sector a nivel nacional. Considere que la principal actividad de la empresa es brindar **acceso a internet**, pero también es importante considerar el resto de los servicios. 
+---
 
-Con el fin de monitorear la eficacia de los objetivos de la empresa, se le pide **visualizar** en un dashboard el siguiente KPI y **establecer 3 KPIs adicionales** producto de su análisis:
+## Procedimiento
 
-+ Evaluar el aumento o disminución de la variación porcentual **trimestral** del servicio de internet, cada 100 hogares por provincia. [(dataset)](https://www.google.com/url?q=https://datosabiertos.enacom.gob.ar/visualizations/32226/penetracion-de-internet-fijo-accesos-por-cada-100-hogares/&sa=D&source=docs&ust=1671204570423891&usg=AOvVaw0YwFIM-MNjsy094L_FOFM3)
+Para realizar este proyecto, revisé todos los datasets proporcionados y elegí aquellos que tenían información relevante para el análisis deseado y que además hacían referencia a la Argentina por provincia, por lo que de 16 utilicé 6. Estos son:
 
+- Penetración de Internet fijo (accesos por cada 100 hogares): Que hace referencia al número de accesos al servicio de internet fijo por cada 100 hogares por provincia.
+- Accesos a banda ancha y banda angosta por provincia: Hace referencia al número de accesos al servicio de Internet fijo por banda ancha y banda angosta en cada provincia (trimestral).
+- Acceso a Internet fijo por tecnología y provincia: Hace referencia al número de accesos al servicio de Internet fijo por tipo de tecnología en cada provincia (trimestral).
+- Velocidad media de bajada de Internet fijo por provincia: La serie histórica de la velocidad media de descarga de Internet por provincia (trimestral).
+- Acceso a Internet Fijo por rangos de velocidad de bajada y provincia: El número de accesos al servicio de Internet fijo por velocidad de bajada en cada provincia (trimestral) y por rango.
+- Ingresos trimestrales por la prestación del servicio de Internet fijo: Que hace referencia a los ingresos trimestrales por el servicio de Internet fijo.
 
-## **Propuesta de trabajo (indicaciones)**
+Luego de seleccionar los datasets de interés, realicé una revisión de cada uno de ellos para asegurarme de que contaran con el formato adecuado y estuvieran listos para su análisis. Durante esta revisión, también verifiqué que todos los datos de estos dataset tengan los formatos adecuados para cada una de sus columnas y luego analicé las columnas de cada dataset.
 
-`Análisis Exploratorio de los datos`(_Exploratory Data Analysis = EDA_):
-Debe incluir un informe en el que explique y justifique el análisis expuesto y los datos utilizados, complementando con las salidas visuales incorporadas en el EDA. La elección de la forma de presentación del reporte es libre.
+Después de eso se procedió a realizar un análisis detallado de cada uno de los datasets seleccionados, obteniendo diversas conclusiones. Con toda esta información, se elaboró una conclusión que explicara y justificara el análisis y los datos utilizados.
 
-`Dashboard`:
-Debe ser funcional y coherente con el análisis y la historia que vayan a relatar.
+---
 
-`Análisis`: :warning:
-No se calificará solamente la producción de gráficos con datos (dashboard), sino también los análisis y conclusiones que encuentren de estos.
+## Conclusión
 
-`KPIs`:
-Se deben sugerir 3 KPIs y deben aparecer en el dashboard. Tenga en cuenta que debe tener relación con el dataset y la historia que está contando, y debe explicar en la presentación el análisis y la funcionalidad de los KPIs sugeridos.
+En este trabajo encontré varias tendencias interesantes en cuanto al acceso y uso de Internet en Argentina. Una de las más llamativas es la gran diferencia que existe entre las distintas provincias en términos de promedio de accesos por cada 100 hogares por año. Esto es algo que se debe tener en cuenta, especialmente en provincias como Formosa que tienen menos de la mitad del promedio de accesos comparado con otras.
 
-`Repositorio de GitHub`:
-El repositorio debe contener un Readme principal donde se presente de forma general **su proyecto**.
+Otra tendencia interesante es el creciente uso de la tecnología Dial-up en las provincias de Chubut, Mendoza y Río Negro. Aunque esta tecnología es menos utilizada que la Banda Ancha, ha experimentado un crecimiento significativo en los últimos cuatro años. Creo que recopilar más información sobre nuestros clientes de esta tecnología puede ayudar a crear campañas de marketing específicas para ese público y a impulsar aún más esta tecnología en estas provincias.
 
-**PLUS**
-<br>
-<sub> Nota: la realizacion de los siguientes items no es intercambiable con los requerimientos minimos establecidos en la seccion anterior "Propuesta de trabajo". Empiece con esta seccion una vez haya cumplido con los requerimientos minimos, a modo de desafiarse a usted mismo.</sub>
+También observé que la cantidad de conexiones de la tecnología ADSL está disminuyendo cada vez más, mientras que Cablemodem y Fibra Óptica están aumentando bastante con el tiempo. Especialmente en las provincias más desarrolladas. Sin embargo, en las provincias menos desarrolladas aún no se utiliza mucho la Fibra Óptica, que es la tecnología más rápida de las mencionadas. Creo que, la empresa en cuestión debe evaluar la infraestructura que tiene a su disposición en cada una de las provincias y, si es posible, instalar alguna de estas tecnologías.
 
-
-- Extraer los datos desde la API del sitio (no descarga de csv)
-- Ejecutar scripts de python en la herramienta de visualización de datos escogida.
-- Redactar un reporte escrito de análisis realizado en base a sus dashboard e incluirlo en el readme de sus repositorios. También debe incluir el análisis y la funcionalidad de los KPIs sugeridos.
-- Cruce de datos con datasets complementarios.
-
-## Fuente de datos:
-- [Dataset principal](https://datosabiertos.enacom.gob.ar/dashboards/20000/acceso-a-internet/) Se sugiere el uso de la API
-- [Datasets complementarios](https://datosabiertos.enacom.gob.ar/home)
-- Otros datasets de busqueda propia.
-
-<br>
-
-<h1>Lo que tendremos en cuenta a la hora de evaluar:</h1>
-
-Serás evaluado en dos grandes áreas, ambas con igual peso entre si: `Tech` y `Soft`!
-
-**Las habilidades técnicas (Tech)** para este proyecto de analytics incluyen el tipo de herramientas utilizadas para la realización de dashboard (herramientas de **Business Intelligence** y/o DataViz), elección de **gráficas pertinentes** para la representación del dato y un dashboard **efectivo** (organizacion, uso de filtros y…….. sí, también incluye que sea bonito :nail_care:)
-
-**Las habilidades blandas (Soft)** para este proyecto tendrán en cuenta la **comunicación oral**, la forma en que cuentas tu historia (los datos duros que presentas son **útiles** para tu audiencia?) y finalmente (esto es mucho muy importante), :warning:**EL ANÁLISIS**:warning: (¿brindas un contexto?, ¿haces comparaciones con otros datos?, tienes conclusiones interesantes y realizas análisis no triviales?).
-
-<sub>**Spoiler**: Te vamos a dar mucho feedback! También vamos a evaluar tu capacidad de recepción a este :stuck_out_tongue: </sub>
-
-
-## Material de apoyo
-- [Workshop `From Data to Viz & Storytelling`](https://www.students.soyhenry.com/classes/121?cohortId=58&videoOrdinal=1)
-- [Como hacer un EDA](https://medium.com/nerd-for-tech/how-to-do-some-basic-eda-a-guide-for-dummies-d76d9a82242c)
-- [Como ejecutar scripts en power BI](https://learn.microsoft.com/es-es/power-bi/connect-data/desktop-python-scripts)
-
-## ***Recomendaciones finales***
-
-¡No deben mostrar nada de código en la exposición!
-
-Recordamos que sean puntuales y prueben el correcto funcionamiento de las herramientas empleadas **antes** de ingresar a la meet.
-
-La **DEMO**, donde defenderán el proyecto, se realizará el día jueves o viernes. Estar atentos a su *calendar* para ver qué día y horario les corresponde. Tendrá una duración máxima de 15 minutos -entre puesta en escena y devolución del corrector asignado-. Así que es importante que sepan gestionar bien su tiempo y tengan un speech ya preparado de 10 minutos de duración.
-
-
-
-
+La velocidad promedio de Internet en el primer trimestre de 2022 es de 34,71 Mbps, lo que es bastante bueno para el país, pero como es un promedio, está un poco sesgado. Todavía hay provincias como Jujuy, Mendoza, San Luis, La Pampa, Santiago del Estero, Chubut, San Juan, Santa Cruz y Tierra del Fuego que no tienen un Internet de al menos 30 Mbps, que según datos es lo recomendable para realizar video llamadas y tener varios dispositivos conectados en el hogar en la actualidad. Por lo tanto, creo que es importante tener en cuenta estas provincias con menores promedios de Mbps y trabajar en equilibrar la infraestructura de Internet las mismas.
