@@ -42,7 +42,7 @@ Después de eso se procedió a realizar un análisis detallado de cada uno de lo
 
 ## Conclusión
 
-En este trabajo encontré varias tendencias interesantes en cuanto al acceso y uso de Internet en Argentina. Una de las más llamativas es la gran diferencia que existe entre las distintas provincias en términos de promedio de accesos por cada 100 hogares por año. Esto es algo que se debe tener en cuenta, especialmente en provincias como Formosa que tienen menos de la mitad del promedio de accesos comparado con otras.
+Como conclusión de este trabajo, encontré varias tendencias interesantes en cuanto al acceso y uso de Internet en Argentina. Una de las más llamativas es la gran diferencia que existe entre las distintas provincias en términos de promedio de accesos por cada 100 hogares por año. Esto es algo que se debe tener en cuenta, especialmente en provincias como Formosa que tienen menos de la mitad del promedio de accesos comparado con otras.
 
 Otra tendencia interesante es el creciente uso de la tecnología Dial-up en las provincias de Chubut, Mendoza y Río Negro. Aunque esta tecnología es menos utilizada que la Banda Ancha, ha experimentado un crecimiento significativo en los últimos cuatro años. Creo que recopilar más información sobre nuestros clientes de esta tecnología puede ayudar a crear campañas de marketing específicas para ese público y a impulsar aún más esta tecnología en estas provincias.
 
